@@ -17,6 +17,3 @@ This repository consists of 30 projects in 30 days and is a work in progress. <b
     <td><a href="https://musical-boba-146ec0.netlify.app/">Content Placeholder</a></td>
   </tr>
 </table>
-
-
-
