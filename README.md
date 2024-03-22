@@ -1,6 +1,6 @@
 # [30 Days Of JavaScript](30daysofjs.netlify.app)
 
-This repository consists of 30 projects in 30 days and is a work in progress. <b>30 Days of JavaScript Challenge</b>.
+This repository consists of 30 projects in 30 days and is a work in progress.
 
 ## View Live Demo
 <table>
