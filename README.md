@@ -10,7 +10,7 @@ This repository consists of 30 projects in 30 days and is a work in progress. <b
   </tr>
   <tr>
     <td>1</td>
-    <td><a href="https://30daysofjs.netlify.app/01%20-%20drum%20kit/](https://moonlit-puppy-53d251.netlify.app/">Image Carousel</a></td>
+    <td><a href="https://moonlit-puppy-53d251.netlify.app/">Image Carousel</a></td>
   </tr>
   <tr>
     <td>2</td>
