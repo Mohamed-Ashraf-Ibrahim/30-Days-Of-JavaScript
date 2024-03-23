@@ -3,6 +3,7 @@
 This repository consists of 30 projects in 30 days and is a work in progress.
 
 ## View Live Demo
+
 <table>
   <tr>
     <th>Day</th>
@@ -19,5 +20,9 @@ This repository consists of 30 projects in 30 days and is a work in progress.
   <tr>
     <td>3</td>
     <td><a href="https://65fdf55ea9ed01691cc38048--gleaming-taiyaki-66df63.netlify.app/">Live User Filter</a></td>
+      <tr>
+    <td>4</td>
+    <td><a href="https://65ff65587fedff5ee15436c6--charming-biscuit-93008f.netlify.app/">Advice Generator</a></td>
+  </tr>
   </tr>
 </table>
