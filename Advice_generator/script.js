@@ -14,17 +14,14 @@ const renderAdvice = function (advice) {
 
 // Function to fetch advice from the API
 const getAdvice = async function () {
+  try {
+    const response = await fetch("https://api.adviceslip.com/advice");
+    const data = await response.json();
+    renderAdvice(data);
+  } catch (err) {
+    console.error(err);
+  }
   // Await the response from the API and convert it to JSON format
-  await fetch("https://api.adviceslip.com/advice")
-    .then((res) => res.json())
-    .then((data) => {
-      // Render the fetched advice onto the webpage
-      renderAdvice(data);
-    })
-    .catch((err) => {
-      // Log any errors that occur during the fetch operation
-      console.error("Error fetching advice:", err);
-    });
 };
 
 // Initial call to getAdvice function to fetch and display advice on page load
