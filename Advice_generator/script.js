@@ -1,5 +1,4 @@
 "use strict";
-
 // Selecting elements from the DOM
 const adviceNum = document.querySelector(".advice-id"); // Element to display advice number
 const adviceQuote = document.querySelector(".advice"); // Element to display advice text
