@@ -1,5 +1,4 @@
 "use strict";
-
 // Selecting elements from the DOM
 const adviceNum = document.querySelector(".advice-id"); // Element to display advice number
 const adviceQuote = document.querySelector(".advice"); // Element to display advice text
@@ -15,15 +14,14 @@ const renderAdvice = function (advice) {
 // Function to fetch advice from the API
 const getAdvice = async function () {
   try {
+  // Await the response from the API and convert it to JSON format
     const response = await fetch("https://api.adviceslip.com/advice");
     const data = await response.json();
     renderAdvice(data);
   } catch (err) {
     console.error(err);
   }
-  // Await the response from the API and convert it to JSON format
 };
-
 // Initial call to getAdvice function to fetch and display advice on page load
 getAdvice();
 
