@@ -24,9 +24,6 @@ This repository consists of 30 projects in 30 days and is a work in progress.
     <td>4</td>
     <td><a href="https://65ff65587fedff5ee15436c6--charming-biscuit-93008f.netlify.app/
     ">Advice Generator</a></td>
-    <td>5</td>
-    <td><a href="https://660321e6be3c4d86814f5ff1--calm-pithivier-05ac05.netlify.app/
-    ">Color Flipper</a></td>
   </tr>
   </tr>
 </table>
