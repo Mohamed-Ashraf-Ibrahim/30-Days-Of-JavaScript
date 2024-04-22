@@ -1,0 +1,39 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.switcher {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.switcher li {
+  padding: 20px 10px;
+  background-color: #eee;
+  cursor: pointer;
+  min-width: 140px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.switcher li.active,
+.switcher li:hover {
+  background-color: red;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+}
+
+.gallery img {
+  margin: 15px 10px 10px 10px;
+  height: 200px;
+}
