@@ -33,5 +33,9 @@ This repository consists of 30 projects in 30 days and is a work in progress.
     <td>6</td>
     <td><a href="https://6604995666e1ec67d9edcae7--boisterous-croissant-de176e.netlify.app/#">Meme Generator</a></td>
   </tr>
+      <tr>
+    <td>7</td>
+    <td><a href="https://6626bedf296864280a45e7e2--charming-gecko-634b9a.netlify.app/">Products Category Filter</a></td>
+  </tr>
   </tr>
 </table>
