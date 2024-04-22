@@ -29,11 +29,23 @@ body {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
-  margin: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery img {
   margin: 15px 10px 10px 10px;
   height: 200px;
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery img {
+    height: auto;
+    max-width: 100%;
+  }
+  .switcher {
+    flex-wrap: wrap;
+  }
 }
